@@ -1,0 +1,28 @@
+body {
+    background-image: linear-gradient(to right, rgba(24, 21, 21, 0.514), rgb(204, 189, 189));
+    
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+   text-align: center; 
+}
+img {
+   
+    height: 130px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+a {
+    display: flex;
+    flex-direction: column;
+   
+}

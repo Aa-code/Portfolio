@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+    
 
     <!-- logos  -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!-- Linkedin Lnk -->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     
 
    
@@ -16,7 +20,8 @@
     <title>Portfolio</title>
 </head>
 <nav class="navbar ">
-        <span class="navbar-brand mb-0 h1">AR</span>
+        <span class="navbar-brand mb-0 h1">Aaliyah Rodiguez</span>
+       <a href="https://github.com/Aa-code"><i class="devicon-github-plain-wordmark colored git"></i></a> 
       </nav>
 <body>
        
@@ -24,15 +29,17 @@
     <h1>Web Developer | Software Engineer</h1>
 
     <main>
-        
+            <div class="container-fluid">
        <p class="intro"> Hello!</p>
        <p class="intro">My name is Aaliyah Rodiguez, I am an inspiring Web developer.
        </p>
+       </div>
     </main>
     <article>
+            <h1>About me</h1>
             <div class="container-fluid">
-                    <h1>About me</h1>
-                    <p>As an Inspiring Web dev, I didn't always have a passion for code. Before General Assembly, I had no idea about coding. I grew up playing sports all my life and through sports, I connected with others and thrived off pushing my teammates to do their very best. I hope to bring this passion and thrive into my work, building a project with a team is the best, because along the way you are motivating one another and learning as well. I love photography and enjoy taking beautiful photos. I also enjoy hiking and running. </p>
+                   
+                    <p>     As an Inspiring Web dev, I didn't always have a passion for code. Before General Assembly, I had no idea about coding. I grew up playing sports all my life and through sports, I connected with others and thrived off pushing my teammates to do their very best. I hope to bring this passion and thrive into my work, building a project with a team is the best, because along the way you are motivating one another and learning as well. I love photography and enjoy taking beautiful photos. I also enjoy hiking and running. </p>
                    
                   </div>
           
@@ -66,7 +73,7 @@
                         <div class="card-body">
                           <h5 class="card-title">OG Hair Care</h5>
                           <p class="card-text">An online store, that has organic hair products for sell. Customers are able to click on products and get all the details they need about them, they are also able to buy products and the app will deduct how many where bought from the stock. This app was built with Express and EJs. It is full CRUD.</p>
-                          <a href="https://shielded-garden-44472.herokuapp.com/store" class="btn btn-primary">Live App</a>
+                          <a href="https://hairproject2.herokuapp.com/store" class="btn btn-primary">Live App</a>
                         </div>
                       </div>
 
@@ -99,7 +106,7 @@
             </div>
          </div>
 
-
+         
    <br>
 
 
@@ -112,50 +119,52 @@
 
 <br>
 
-              <section class="page-section about bg-dark text-white mb-0" id="contact">
+
+
+              <section class="page-section about bg-dark text-white mb-5 " id="contact">
+
+                                                            
                     <div class="container">
-                      <h2 class="page-section-heading text-center text-uppercase text-white">CONTACT</h2>
-                      <div class="col-lg-8-ctr ml-auto">
-                        <!-- Contact Section -->
-                        <div class="container">
-                          <form action="http://aliyahdevcode@outlook.com" method="POST" enctype="multipart/form-data">
-                            <div class="form-group">
-                              <input type="text" name="name" placeholder="Your name" class="form-control">
-                            </div>
-                            <div class="form-group">
-                              <input type="email" name="_replyto" placeholder="Your email" class="form-control">
-                            </div>
-                            <div class="form-group">
-                              <textarea name="message" placeholder="Enter your message here" class="form-control"></textarea>
-                            </div>
-                            <div class="form-group">
-                              <input type="file" name="file" placeholder="Attachments (optional)" class="form-control">
-                            </div>
-                            <div class="form-group">
-                              <input type="hidden" name="_subject" value="Contact form submitted" class="form-control">
-                            </div>
-                            <div class="form-group">
-                              <input type="hidden" name="_after" value="https://myhomepage.net/" class="form-control">
-                            </div>
-                            <div class="form-group">
-                              <input type="hidden" name="_honeypot" value="" class="form-control">
-                            </div>
-                            <div class="form-group">
-                              <input type="hidden" name="_confirmation" value="" class="form-control">
-                            </div>
-                
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                      <div style="text-align:center">
+                        <h2>Contact Me!</h2>
+                        <p>Swing by for a cup of coffee, or leave me a message:</p>
+                      </div>
+                      <div class="row">
+                        <div class="column">
+                                                    
+                                <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="aaliyah-rodriguez"><a class="LI-simple-link" href='https://www.linkedin.com/in/aaliyah-rodriguez?trk=profile-badge'>Aaliyah Rodriguez</a></div>
+                          
+                        </div>
+                    
+                    <div class="column">
+                          
+                          <form action="/action_page.php">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                                                  
+                            <label for="subject">Tell me who you are!</label>
+                            
+                            <textarea id="subject" name="subject" placeholder="Enter your message here.." style="height:130px">
+                            </textarea>
+                            
+                            <input type="submit" value="Submit">
+                          
                           </form>
                         </div>
-                
                       </div>
                     </div>
-                  </section>
+                    
+                </section>
 
+                  
 
-                 
-                  <div class="footer-copyright text-center py-3"> © 2019 Aaliyah Rodriguez
-                    </div>
+                
+
+                 <footer>
+                  <div class="footer-copyright text-center py-3"> © 2019 Aaliyah Rodriguez </div>
+                </footer>
       
                    
 
